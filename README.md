@@ -2,6 +2,8 @@
 
 An AI phone receptionist for a residential care home, built to answer inbound calls, extract structured caller details, triage urgency, and automatically follow up by WhatsApp — with every call logged for the front-of-house team.
 
+🎥 [Watch the demo](https://youtu.be/WpXlimQg1WY)
+
 ---
 
 ## The problem
