@@ -1,0 +1,27 @@
+Timestamp,Caller Name,Relationship,Callback Number,Reason,Urgent,Duration (s),Ended Reason,Recording URL,Transcript,Call ID
+2026.07.20,Gabriel,family,+447719829089,Caller reported their grandpa had a fall this morning and requested an urgent call back.,TRUE,84.34,assistant-said-end-call-phrase,https://hipaa-recordings.94bdb67bb98da30b06bdd917725c037d.r2.cloudflarestorage.com/019f7d0a-30b1-7551-88d0-fd9fc47e1d24-1784509334864-9e2f6d65-ea48-45f0-945e-e685ca584294-stereo.wav?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=771595b33453a6e62bc129ad82377afe%2F20260720%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260720T010216Z&X-Amz-Expires=1800&X-Amz-Signature=0023742efef29c5d39fb5ae419d24661f1b6c914ad06d3ec760beec04912dbb6&X-Amz-SignedHeaders=host&x-id=GetObject,"AI: Good afternoon, Oakfield Care Home, this is Alice speaking. How can I help you today?
+User: Hi, I'll just— My grandpa had a fall this morning, and I need someone to call me back right now.
+AI: That needs the team right away. I'm flagging this as urgent now. Could I please have your full name and the best contact number to reach you?
+User: My name is Gabriel, and my number is 7. 7. 1-9.
+AI: Thank you, Gabriel. Just to confirm, your number is 7719, is that correct?
+User: No, my number is 77. 1. 9-8-2-9-0-8-9.
+AI: Thank you, Gabriel. So your number is 771. 9. 8. 2, 9089, is that correct?
+User: Yes, that's correct.
+AI: Thank you, Gabriel. I've got all that down, and I'm sending you a text confirmation now. Someone will call you back shortly. Is there anything else you'd like me to note before I end the call?
+User: I'm not happy with the service at all. That's just what I have to say.
+AI: Thank you for letting me know, Gabriel. I'll make sure to pass that on as well. Thanks again for calling Oakfield. Take care now.
+",019f7d0a-30b1-7551-88d0-fd9fc47e1d24
+2026.07.20,Johnson,family,+447719829089,Caller wanted to know the opening hours to visit their auntie this afternoon.,FALSE,104.214,assistant-said-end-call-phrase,https://hipaa-recordings.94bdb67bb98da30b06bdd917725c037d.r2.cloudflarestorage.com/019f7fd1-cf7b-7334-a08b-74e3064d4393-1784555991755-1a47149e-9b1e-451c-99cc-c3493b5d86ae-stereo.wav?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=771595b33453a6e62bc129ad82377afe%2F20260720%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260720T135953Z&X-Amz-Expires=1800&X-Amz-Signature=b51940cca3779c751cddd570115c1a8ba2b6a11bd90f4f111d354aa47ba493ec&X-Amz-SignedHeaders=host&x-id=GetObject,"AI: Good afternoon. Oakfield. Care Home. This is. Alice speaking. How can I help you today?
+User: Hi, Alice. I'm just calling to find out what time you open. Today.
+AI: Thank you for calling. Our visiting hours are daily from 10:00 AM to 6:00 PM. May I take your name, please?
+User: My name is Johnson.
+AI: Thank you, Johnson. Are you a family member, a prospective family, or do you have another connection to Oakfield Care Home?
+User: Oh, I'm a family member. I'm trying to visit my auntie. This afternoon.
+AI: Thank you for letting me know, Johnson. Could I please take your best contact number just in case the team needs to reach you? I'll read it back to confirm.
+User: My number is 7. 7. 19. 829 0. 8. 9.
+AI: Thank you. Just to confirm, your number is 771 982 90. 89. Is that correct?
+User: Yes, that's correct.
+AI: Thank you, Johnson. So. You're a family member planning to visit your auntie this afternoon. I've got all that down, and I'm sending you a text confirmation now. Someone will call you back shortly if needed. Is. There anything else I can help with today?
+User: Not really. I think. Um. I think that will be all.
+AI: Thanks again for calling Oakfield. Take care now.
+",019f7fd1-cf7b-7334-a08b-74e3064d4393

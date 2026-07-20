@@ -1,0 +1,28 @@
+{
+  "name": "call_details",
+  "description": "Caller details captured during an Oakfield Care Home reception call",
+  "type": "object",
+  "properties": {
+    "caller_name": {
+      "type": "string",
+      "description": "The caller's full name"
+    },
+    "relationship": {
+      "type": "string",
+      "description": "One of: family, prospective, agency, supplier, other"
+    },
+    "callback_number": {
+      "type": "string",
+      "description": "The caller's phone number exactly as spoken, digits only, keep any leading zero"
+    },
+    "reason": {
+      "type": "string",
+      "description": "One sentence summary of why they called"
+    },
+    "urgent": {
+      "type": "boolean",
+      "description": "True if the caller mentioned a fall, injury, emergency, or resident in distress"
+    }
+  },
+  "required": ["caller_name", "relationship", "callback_number", "reason", "urgent"]
+}
