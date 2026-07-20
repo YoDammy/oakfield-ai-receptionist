@@ -1,4 +1,3 @@
-```markdown
 # Oakfield AI Receptionist
 
 An AI phone receptionist for a residential care home, built to answer inbound calls, extract structured caller details, triage urgency, and automatically follow up by WhatsApp — with every call logged for the front-of-house team.
@@ -29,22 +28,17 @@ This build uses WhatsApp rather than SMS for the caller follow-up. Families are 
 
 ## Architecture
 
-![Architecture diagram](./architecture-diagram/Screenshot%202026-07-20%20at%2015.13.09.png)
+![Architecture diagram](./architecture-diagram/scenario-diagram.png)
 
-```
-Caller dials in
-      ↓
-Twilio (number) → Vapi (voice agent: GPT-4o-mini + 11Labs + Deepgram)
-      ↓
-Vapi extracts structured data (end-of-call-report webhook)
-      ↓
-Make.com scenario:
-   1. Log call → Google Sheets
-   2. Router — branch by urgency / completeness
-        → Urgent    → WhatsApp (immediate alert)
-        → Standard  → WhatsApp (confirmation)
-        → Incomplete → Google Sheets (flagged for manual callback)
-```
+**Flow:**
+
+Caller dials in → Twilio (number) → Vapi (voice agent: GPT-4o-mini + 11Labs + Deepgram) → Vapi extracts structured data (end-of-call-report webhook) → Make.com scenario:
+
+1. Log call to Google Sheets
+2. Router — branch by urgency / completeness
+   - Urgent → WhatsApp (immediate alert)
+   - Standard → WhatsApp (confirmation)
+   - Incomplete → Google Sheets (flagged for manual callback)
 
 ## Stack
 
@@ -64,12 +58,10 @@ Make.com scenario:
 
 ## Repo contents
 
-```
-/architecture-diagram   — Make.com scenario screenshot
-/prompt                 — full system prompt used by the Vapi assistant
-/schema                 — structured output schema (JSON) for call data extraction
-/sample-call-log        — anonymised example rows from the live call log
-```
+- `/architecture-diagram` — Make.com scenario screenshot
+- `/prompt` — full system prompt used by the Vapi assistant
+- `/schema` — structured output schema (JSON) for call data extraction
+- `/sample-call-log` — anonymised example rows from the live call log
 
 ## Notes
 
@@ -78,4 +70,3 @@ This is a demo/portfolio build using a fictional client. Twilio numbers, WhatsAp
 ---
 
 Built by [Damilola Odunlami](https://github.com/YoDammy) — [Venly Labs](https://venlylabs.com)
-```
